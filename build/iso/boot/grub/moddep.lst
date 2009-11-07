@@ -1,0 +1,115 @@
+videotest: font video
+loopback: extcmd
+memrw:
+terminfo:
+read:
+aout:
+elf: gzio
+vga_text:
+bsd: elf aout boot gzio mmap
+reiserfs: fshelp
+sfs: fshelp
+configfile: normal
+help: extcmd
+jfs:
+afs: fshelp
+ohci: usb pci
+usb_keyboard: usb
+vga: font
+usbms: scsi usb
+true:
+affs: fshelp
+iso9660: fshelp
+gfxterm: font bitmap video
+xfs: fshelp
+sleep: extcmd
+vbetest: vbe
+pxecmd: pxe extcmd
+memdisk:
+acorn:
+fs_file:
+cmp: gzio
+halt: extcmd
+usb:
+linux: normal boot video mmap
+mdraid: raid
+bufio:
+handler:
+lua: setjmp
+cpuid:
+hdparm: extcmd
+test:
+minicmd:
+ata: scsi pci
+gzio:
+udf: fshelp
+xnu_uuid:
+uhci: usb pci
+raid:
+biosdisk:
+fshelp:
+efiemu: crc extcmd acpi
+mmap: boot
+xnu: bitmap boot video efiemu gzio
+blocklist:
+ext2: fshelp
+drivemap: extcmd boot mmap
+fs_uuid:
+apple:
+sh: normal
+lsmmap:
+bitmap:
+ntfs: fshelp
+ufs:
+multiboot: elf boot gzio mmap
+vbe: video
+png: bufio bitmap
+jpeg: bufio bitmap
+parttool: normal
+cpio:
+fat:
+pcpart: parttool
+raid6rec: raid
+loadenv: extcmd
+datehook: datetime normal
+probe: extcmd
+tar:
+hfs:
+boot:
+vbeinfo: vbe
+acpi: extcmd gzio mmap
+usbtest: usb
+tga: bufio bitmap
+reboot:
+serial: extcmd terminfo
+dm_nv: raid
+amiga:
+font: bufio video
+gpt:
+raid5rec: raid
+video:
+crc:
+hfsplus: fshelp
+extcmd:
+pxe: bufio
+search: extcmd
+lspci: pci
+hexdump: extcmd gzio
+ata_pthru: ata
+pc:
+date: datetime normal
+ls: extcmd normal
+ntfscomp: ntfs
+hello: extcmd
+scsi:
+normal: boot
+cat: gzio
+linux16: boot mmap
+lvm:
+chain: boot
+gptsync:
+sun:
+play:
+echo: extcmd
+minix:
+at_keyboard:
