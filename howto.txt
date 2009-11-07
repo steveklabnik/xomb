@@ -1,0 +1,1 @@
+dd if=/dev/zero of=/home/steve/xen.img bs=1024k count=4000
